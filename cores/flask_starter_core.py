@@ -12,8 +12,7 @@ class Core(QMainWindow, Ui_MainWindow):
 	ports = {
 		"ProjectDatabase": 8081,
 		"ProjectSearchEngine": 8082,
-		"ProjectWorkPasswords": 8083,
-		"ProjectBilibiliRanking": 8084
+		"ProjectWorkPasswords": 8083
 	}
 
 	def __init__(self):
